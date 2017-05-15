@@ -4,7 +4,7 @@
 FROM fedora:latest
 
 # Install required packages
-RUN dnf install -y git wget
+RUN dnf install -y git wget python
 
 # Download openshift origin client tool
 RUN wget -O /tmp/openshift-client.tar.gz https://github.com/openshift/origin/\
